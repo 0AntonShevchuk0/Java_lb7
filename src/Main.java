@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Створення об'єкту классу для зчитування введення користувача
+        // Створення об'єкту класу для зчитування введення користувача
         Scanner scanner = new Scanner(System.in);
 
         // Блок, де може статися помилка
@@ -63,7 +63,7 @@ public class Main {
         if (naturalNumber <= 0) {
             throw new Exception("A number must be natural.");
         }
-        // Кожне число має хочв б одну цифру
+        // Кожне число має хоча б одну цифру
         int digitsCount = 1;
 
         while (naturalNumber >= 10) {
